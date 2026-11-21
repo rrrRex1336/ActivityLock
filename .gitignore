@@ -15,3 +15,9 @@ captures/
 .home/
 .robolectric-deps/
 .tmp/
+*.jks
+*.keystore
+keystore.properties
+
+__pycache__/
+*.pyc

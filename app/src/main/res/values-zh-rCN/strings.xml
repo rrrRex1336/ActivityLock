@@ -1,0 +1,88 @@
+<resources>
+    <string name="app_name">Locky</string>
+
+    <string name="screen_intro">选择要锁定的应用，开启全屏手势锁定。</string>
+    <string name="section_target">应用</string>
+    <string name="target_empty">选择要锁定的应用</string>
+    <string name="target_empty_hint">点击从已安装应用中选择</string>
+
+    <string name="section_root">Root 权限</string>
+    <string name="root_status">Root 访问</string>
+    <string name="root_ready">Root 已就绪</string>
+    <string name="root_ready_desc">强制切换三键导航、隐藏系统栏；游戏全屏显示，触摸不走转发层。</string>
+    <string name="root_need">需要 Root 权限</string>
+    <string name="root_need_desc">Locky 仅支持 Root。请在 Root 管理器中允许授权，应用会自动开启悬浮窗。</string>
+    <string name="root_overlay_desc">Root 已连接，但还需要悬浮窗权限来显示控制面板。点下方按钮自动授权。</string>
+    <string name="root_detecting">正在检测 Root…</string>
+    <string name="root_detecting_desc">正在请求 Root 管理器，请留意授权弹窗。</string>
+    <string name="detect_root">重新检测 Root</string>
+    <string name="status_detecting">检测中…</string>
+
+    <string name="root_setup">请求 Root 权限</string>
+    <string name="root_setup_running">正在请求 Root 权限…</string>
+    <string name="overlay_permission">打开悬浮窗设置</string>
+    <string name="permission_missing">缺少权限</string>
+    <string name="permission_ok">已授权</string>
+    <string name="overlay_status">悬浮窗</string>
+
+    <string name="section_options">锁定选项</string>
+    <string name="option_gestures">屏蔽手势导航</string>
+    <string name="option_gestures_desc">临时切换为三键导航，避免边缘滑动误触</string>
+    <string name="option_bars">隐藏状态栏与导航栏</string>
+    <string name="option_bars_desc">沉浸式全屏，减少视觉干扰</string>
+    <string name="option_awake">保持屏幕常亮</string>
+    <string name="option_awake_desc">锁定期间不自动熄屏</string>
+
+    <string name="start_lock">开始锁定</string>
+    <string name="start_lock_preparing">正在准备…</string>
+    <string name="start_locked_button">锁定进行中</string>
+    <string name="lock_active_title">锁定进行中</string>
+    <string name="lock_active_desc">目标应用正在全屏运行，手势导航已屏蔽。</string>
+    <string name="end_lock">结束锁定</string>
+    <string name="footer_hint">点击悬浮圆点可退出或切换应用；也可以下拉通知栏结束锁定。</string>
+    <string name="footer_disclaimer">仅 Root：强制导航 overlay + 沉浸全屏；不改硬件、不屏蔽电源键。</string>
+
+    <string name="help">使用说明</string>
+    <string name="help_title">怎么用</string>
+    <string name="help_body">1. 选择要锁定的音游。\n2. 点击“请求 Root 权限”，允许 Root 管理器请求。\n3. 点击“开始锁定”，应用会强制切换到三键导航并进入沉浸全屏。\n\n这里不使用普通的 navigation_mode 设置，而是直接切换 Android SystemUI 的导航 overlay，因此对忽略 navigation_mode 的系统同样有效。\n\n游戏保持自己的全屏窗口，触摸事件由游戏原生接收，不经过任何嵌入或转发。\n\n退出：点击悬浮圆点，再点“退出锁定”；也可以从通知栏结束。点“切换应用”可以在保持锁定的同时打开应用选择器。\n\n电源键不会被拦截，硬件按键保持原样。</string>
+    <string name="close">关闭</string>
+
+    <string name="picker_title">选择应用</string>
+    <string name="picker_hint">搜索应用或包名</string>
+    <string name="picker_loading">正在读取已安装应用…</string>
+    <string name="picker_empty">没有找到应用</string>
+    <plurals name="picker_count">
+        <item quantity="other">%1$d 个应用</item>
+    </plurals>
+    <string name="cancel">取消</string>
+
+    <string name="overlay_hint">已锁定 · 点击悬浮圆点可退出或切换</string>
+    <string name="overlay_bubble_desc">锁定控制，点击可退出或切换应用</string>
+    <string name="control_title">已锁定 · 控制中心</string>
+    <string name="control_hint">切换应用会保持锁定；退出后恢复原来的手势导航与系统栏。</string>
+    <string name="control_switch">切换应用</string>
+    <string name="control_unlock">退出锁定</string>
+    <string name="control_resume">继续游戏</string>
+    <string name="notification_switch">切换应用</string>
+    <string name="switch_hint">已切换到 %1$s</string>
+    <string name="overlay_hint_failed">手势屏蔽未生效，请检查系统导航设置</string>
+
+    <string name="notification_channel_name">锁定状态</string>
+    <string name="notification_channel_desc">显示当前锁定状态与控制入口</string>
+    <string name="notification_title">正在锁定 %1$s</string>
+    <string name="notification_text">手势导航已屏蔽 · 点击悬浮圆点退出</string>
+    <string name="notification_end">结束锁定</string>
+    <string name="notification_error_title">锁定启动失败</string>
+
+    <string name="toast_no_overlay">需要悬浮窗权限才能显示锁定控制</string>
+    <string name="toast_no_target">请先选择一个应用</string>
+    <string name="toast_launch_failed">无法启动目标应用</string>
+    <string name="toast_root_missing">未获得 Root 权限</string>
+    <string name="toast_root_success">Root 配置完成</string>
+    <string name="toast_root_partial">部分授权失败，请检查 Root 管理器</string>
+    <string name="toast_settings_failed">写入系统设置失败，请确认 Root 权限后重试</string>
+
+    <string name="error_overlay_missing">缺少悬浮窗权限，无法显示退出入口</string>
+    <string name="notif_channel_service">前台锁定服务</string>
+    <string name="notif_channel_service_desc">保持锁定状态并在通知栏提供退出入口</string>
+</resources>

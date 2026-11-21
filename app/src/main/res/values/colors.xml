@@ -1,34 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="bg">#070A0E</color>
-    <color name="bg_elevated">#0B1017</color>
-    <color name="surface">#0F151D</color>
-    <color name="surface_high">#151D27</color>
-    <color name="surface_container_lowest">#080C11</color>
-    <color name="surface_container_low">#0C1218</color>
-    <color name="surface_container">#111922</color>
-    <color name="surface_container_high">#161F29</color>
-    <color name="surface_container_highest">#1C2732</color>
-    <color name="stroke">#24313E</color>
-    <color name="stroke_soft">#19232D</color>
-    <color name="text_primary">#F4F8FB</color>
-    <color name="text_secondary">#93A0AF</color>
-    <color name="text_muted">#657384</color>
-    <color name="lime">#C8FF4D</color>
-    <color name="on_lime">#182000</color>
-    <color name="lime_container">#2B3A05</color>
-    <color name="on_lime_container">#DAFF93</color>
-    <color name="lime_dim">#8DB832</color>
-    <color name="cyan">#65E6FF</color>
-    <color name="cyan_container">#06333B</color>
-    <color name="on_cyan_container">#B7F3FF</color>
-    <color name="ink">#070A0E</color>
-    <color name="danger">#FFB4AB</color>
-    <color name="danger_container">#93000A</color>
-    <color name="on_danger_container">#FFDAD6</color>
-    <color name="success">#9BE8A0</color>
-    <color name="warning">#FFD28A</color>
-    <color name="transparent">#00000000</color>
-    <color name="scrim">#CC000000</color>
-    <color name="code_bg">#080D12</color>
-    <color name="lime_ripple">#33C8FF4D</color>
+    <color name="scrim">#80000000</color>
 </resources>

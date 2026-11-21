@@ -1,172 +1,20 @@
 <resources>
-    <style name="Theme.ActivityLock" parent="Theme.Material3.Dark.NoActionBar">
-        <item name="colorPrimary">@color/lime</item>
-        <item name="colorOnPrimary">@color/on_lime</item>
-        <item name="colorPrimaryContainer">@color/lime_container</item>
-        <item name="colorOnPrimaryContainer">@color/on_lime_container</item>
-        <item name="colorSecondary">@color/cyan</item>
-        <item name="colorOnSecondary">@color/ink</item>
-        <item name="colorSecondaryContainer">@color/cyan_container</item>
-        <item name="colorOnSecondaryContainer">@color/on_cyan_container</item>
-        <item name="colorSurface">@color/surface</item>
-        <item name="colorOnSurface">@color/text_primary</item>
-        <item name="colorSurfaceVariant">@color/surface_high</item>
-        <item name="colorOnSurfaceVariant">@color/text_secondary</item>
-        <item name="colorSurfaceContainerLowest">@color/surface_container_lowest</item>
-        <item name="colorSurfaceContainerLow">@color/surface_container_low</item>
-        <item name="colorSurfaceContainer">@color/surface_container</item>
-        <item name="colorSurfaceContainerHigh">@color/surface_container_high</item>
-        <item name="colorSurfaceContainerHighest">@color/surface_container_highest</item>
-        <item name="colorOutline">@color/stroke</item>
-        <item name="colorOutlineVariant">@color/stroke_soft</item>
-        <item name="colorError">@color/danger</item>
-        <item name="colorOnError">@color/ink</item>
-        <item name="colorErrorContainer">@color/danger_container</item>
-        <item name="colorOnErrorContainer">@color/on_danger_container</item>
-        <item name="android:colorBackground">@color/bg</item>
-        <item name="android:windowBackground">@color/bg</item>
-        <item name="android:windowLightStatusBar">false</item>
+    <style name="Theme.ActivityLock" parent="Theme.Material3.DayNight.NoActionBar">
         <item name="android:statusBarColor">@android:color/transparent</item>
         <item name="android:navigationBarColor">@android:color/transparent</item>
-        <item name="android:fontFamily">sans-serif</item>
-        <item name="materialButtonStyle">@style/Widget.ActivityLock.Button</item>
-        <item name="materialCardViewStyle">@style/Widget.ActivityLock.Card</item>
-        <item name="materialSwitchStyle">@style/Widget.Material3.CompoundButton.MaterialSwitch</item>
-        <item name="shapeAppearanceCornerSmall">@style/ShapeAppearance.ActivityLock.Small</item>
-        <item name="shapeAppearanceCornerMedium">@style/ShapeAppearance.ActivityLock.Medium</item>
-        <item name="shapeAppearanceCornerLarge">@style/ShapeAppearance.ActivityLock.Large</item>
         <item name="android:windowActionModeOverlay">true</item>
+        <item name="android:windowNoTitle">true</item>
     </style>
 
-    <style name="ShapeAppearance.ActivityLock.Small" parent="ShapeAppearance.Material3.Corner.Small">
-        <item name="cornerFamily">rounded</item>
-        <item name="cornerSize">8dp</item>
-    </style>
-
-    <style name="ShapeAppearance.ActivityLock.Medium" parent="ShapeAppearance.Material3.Corner.Medium">
-        <item name="cornerFamily">rounded</item>
-        <item name="cornerSize">14dp</item>
-    </style>
-
-    <style name="ShapeAppearance.ActivityLock.Large" parent="ShapeAppearance.Material3.Corner.Large">
-        <item name="cornerFamily">rounded</item>
-        <item name="cornerSize">22dp</item>
-    </style>
-
-    <style name="ShapeAppearance.ActivityLock.Sheet" parent="ShapeAppearance.Material3.LargeComponent">
-        <item name="cornerFamily">rounded</item>
-        <item name="cornerSizeTopLeft">28dp</item>
-        <item name="cornerSizeTopRight">28dp</item>
-        <item name="cornerSizeBottomLeft">0dp</item>
-        <item name="cornerSizeBottomRight">0dp</item>
-    </style>
-
-    <style name="Widget.ActivityLock.Button" parent="Widget.Material3.Button">
-        <item name="android:textAllCaps">false</item>
-        <item name="android:fontFamily">sans-serif-medium</item>
-        <item name="android:letterSpacing">0.01</item>
-        <item name="cornerRadius">16dp</item>
-        <item name="android:minHeight">52dp</item>
-    </style>
-
-    <style name="Widget.ActivityLock.Button.Tonal" parent="Widget.Material3.Button.TonalButton">
-        <item name="android:textAllCaps">false</item>
-        <item name="android:fontFamily">sans-serif-medium</item>
-        <item name="android:letterSpacing">0.01</item>
-        <item name="cornerRadius">14dp</item>
-        <item name="android:minHeight">48dp</item>
-        <item name="backgroundTint">?attr/colorPrimaryContainer</item>
-        <item name="android:textColor">?attr/colorOnPrimaryContainer</item>
-        <item name="iconTint">?attr/colorOnPrimaryContainer</item>
-    </style>
-
-    <style name="Widget.ActivityLock.ModeButton" parent="Widget.Material3.Button.OutlinedButton">
-        <item name="android:textAllCaps">false</item>
-        <item name="android:fontFamily">sans-serif-medium</item>
-        <item name="android:letterSpacing">0.02</item>
-        <item name="android:minHeight">48dp</item>
-        <item name="cornerRadius">14dp</item>
-        <item name="android:textColor">@color/mode_button_text</item>
-        <item name="backgroundTint">@color/mode_button_bg</item>
-        <item name="strokeColor">@color/mode_button_stroke</item>
-        <item name="strokeWidth">1dp</item>
-        <item name="rippleColor">@color/lime_ripple</item>
-    </style>
-
-    <style name="Widget.ActivityLock.Button.Outlined" parent="Widget.Material3.Button.OutlinedButton">
-        <item name="android:textAllCaps">false</item>
-        <item name="android:fontFamily">sans-serif-medium</item>
-        <item name="cornerRadius">14dp</item>
-        <item name="android:minHeight">48dp</item>
-        <item name="strokeColor">?attr/colorOutline</item>
-        <item name="android:textColor">?attr/colorOnSurface</item>
-    </style>
-
-    <style name="Widget.ActivityLock.Button.Text" parent="Widget.Material3.Button.TextButton">
-        <item name="android:textAllCaps">false</item>
-        <item name="android:fontFamily">sans-serif-medium</item>
-        <item name="cornerRadius">12dp</item>
-        <item name="android:textColor">?attr/colorPrimary</item>
+    <style name="Theme.ActivityLock.Switch" parent="Theme.ActivityLock">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
     </style>
 
     <style name="TextAppearance.ActivityLock.Section" parent="TextAppearance.Material3.TitleSmall">
         <item name="android:textColor">?attr/colorOnSurfaceVariant</item>
-        <item name="android:textSize">12sp</item>
-        <item name="android:letterSpacing">0.14</item>
-        <item name="android:fontFamily">sans-serif-medium</item>
-    </style>
-
-    <style name="TextAppearance.ActivityLock.Title" parent="TextAppearance.Material3.HeadlineLarge">
-        <item name="android:textColor">?attr/colorOnSurface</item>
-        <item name="android:textSize">35sp</item>
-        <item name="android:lineSpacingExtra">2dp</item>
-        <item name="android:fontFamily">sans-serif-black</item>
-        <item name="android:letterSpacing">-0.02</item>
-    </style>
-
-    <style name="TextAppearance.ActivityLock.Body" parent="TextAppearance.Material3.BodyMedium">
-        <item name="android:textColor">?attr/colorOnSurfaceVariant</item>
-        <item name="android:textSize">14sp</item>
-        <item name="android:lineSpacingExtra">4dp</item>
-    </style>
-
-    <style name="Theme.ActivityLock.BottomSheet" parent="Theme.Material3.Dark.BottomSheetDialog">
-        <item name="colorPrimary">@color/lime</item>
-        <item name="colorOnPrimary">@color/on_lime</item>
-        <item name="colorPrimaryContainer">@color/lime_container</item>
-        <item name="colorOnPrimaryContainer">@color/on_lime_container</item>
-        <item name="colorSecondary">@color/cyan</item>
-        <item name="colorOnSecondary">@color/ink</item>
-        <item name="colorSurface">@color/surface</item>
-        <item name="colorOnSurface">@color/text_primary</item>
-        <item name="colorSurfaceVariant">@color/surface_high</item>
-        <item name="colorOnSurfaceVariant">@color/text_secondary</item>
-        <item name="colorSurfaceContainerHigh">@color/surface_container_high</item>
-        <item name="colorOutline">@color/stroke</item>
-        <item name="colorOutlineVariant">@color/stroke_soft</item>
-        <item name="bottomSheetStyle">@style/Widget.ActivityLock.BottomSheet</item>
-        <item name="android:navigationBarColor">@color/surface</item>
-        <item name="android:windowLightStatusBar">false</item>
-    </style>
-
-    <style name="Widget.ActivityLock.BottomSheet" parent="Widget.Material3.BottomSheet">
-        <item name="backgroundTint">@color/surface</item>
-        <item name="shapeAppearance">@style/ShapeAppearance.ActivityLock.Sheet</item>
-    </style>
-
-    <style name="Widget.ActivityLock.Card" parent="Widget.Material3.CardView.Filled">
-        <item name="cardBackgroundColor">?attr/colorSurfaceContainer</item>
-        <item name="cardCornerRadius">22dp</item>
-        <item name="cardElevation">0dp</item>
-        <item name="strokeColor">?attr/colorOutlineVariant</item>
-        <item name="strokeWidth">1dp</item>
-        <item name="contentPadding">0dp</item>
-    </style>
-
-    <style name="Widget.ActivityLock.OverlayButton" parent="Widget.Material3.Button">
-        <item name="android:textAllCaps">false</item>
-        <item name="cornerRadius">14dp</item>
-        <item name="android:minHeight">48dp</item>
-        <item name="android:fontFamily">sans-serif-medium</item>
     </style>
 </resources>

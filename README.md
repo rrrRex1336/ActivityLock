@@ -45,9 +45,9 @@ Android 8.0+ · Material You · 仅 Root · English / 中文
 
 ## 视频
 
-[![Locky demo](docs/video-poster.png)](docs/Locky-Demo-1080x1920.mp4)
+[![Locky demo](docs/video-poster.png)](docs/Locky-Demo-16x9-1080p.mp4)
 
-[▶ 观看 Locky 演示](docs/Locky-Demo-1080x1920.mp4) · 18 秒 · 1080×1920 · 竖屏
+[▶ 观看 Locky 演示](docs/Locky-Demo-16x9-1080p.mp4) · 30 秒 · 1920×1080 · 轻环境音乐 / 无旁白
 
 ## 界面
 
@@ -181,7 +181,7 @@ app/src/main/java/io/kernelxtra/activitylock/
 └── util/                              # su、已安装应用扫描
 ```
 
-演示视频：`video/render_demo.py` 本地渲染 + FFmpeg 编码，素材仅来自应用截图，无第三方游戏素材。
+演示视频：DrawAI 画布 `video/Locky-Video.drawai` + Remotion 渲染，素材仅来自应用截图，无第三方游戏素材。
 
 技术栈：Java 17、AndroidX、Material Components 3（`Theme.Material3.DayNight.NoActionBar`、Material You 动态色、`MaterialToolbar`、`MaterialCardView`、`MaterialButton`、`MaterialSwitch`、MD3 Bottom Sheet）。
 

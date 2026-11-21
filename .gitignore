@@ -21,3 +21,8 @@ keystore.properties
 
 __pycache__/
 *.pyc
+.drawai-motion/
+.drawai-cache/
+video/locky-ambient.wav
+.drawai.media/
+video/Locky-Video.drawai.media/

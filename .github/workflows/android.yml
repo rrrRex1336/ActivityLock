@@ -99,6 +99,6 @@ jobs:
         with:
           files: |
             Locky-${{ github.ref_name }}.apk
-            docs/Locky-Demo-1080x1920.mp4
+            docs/Locky-Demo-16x9-1080p.mp4
           generate_release_notes: true
           fail_on_unmatched_files: true

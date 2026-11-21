@@ -45,9 +45,11 @@ Android 8.0+ · Material You · 仅 Root · English / 中文
 
 ## 视频
 
-[![Locky demo](docs/video-poster.png)](docs/Locky-Demo-16x9-1080p.mp4)
+[![Locky fun demo](docs/video-poster-fun.png)](docs/Locky-Demo-Fun-16x9.mp4)
 
-[▶ 观看 Locky 演示](docs/Locky-Demo-16x9-1080p.mp4) · 30 秒 · 1920×1080 · 轻环境音乐 / 无旁白
+[▶ 观看 20 秒抽象快剪](docs/Locky-Demo-Fun-16x9.mp4) · 1920×1080 · 轻快电子乐 / 无旁白
+
+[另一个 30 秒克制版](docs/Locky-Demo-16x9-1080p.mp4)
 
 ## 界面
 
